@@ -20,7 +20,7 @@ async function sendMessage(username: string, message: string) {
         .insert([{ username, message }]);
     if (error) console.error('Lỗi khi gửi tin nhắn:', error);
 }
-
+console.log('login')
 // // Hàm lấy tin nhắn
 
 async function fetchMessages() {
